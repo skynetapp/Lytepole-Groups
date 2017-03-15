@@ -1,3 +1,7 @@
+#### Date: 15/03/2017
+
+#### Description: This document explains the code flow of editing group.
+
 #### Step 1:
 
 Function **controlGroupEditFlow** will be called first from index.php to controller which takes the inputs from the user. when user on group edit in group list view this function will call and using the wsdl it will edit group.
