@@ -1,6 +1,10 @@
+#### Date: 15/03/2017
+
+#### Description: This document explains the code flow of showing contacts list.
+
 #### Step 1:
 
-Function **showAddContactsForm** will be called first from index.php to controller which takes the inputs from the user. when user clicks on add contacts in group detail view this function will call and shows the eisting contacts.
+Function **showAddContactsForm** will be called first from index.php to controller which takes the inputs from the user. when user clicks on add contacts in group detail view this function will call and shows the existing contacts.
 
 - Function **createContactListInputVO** takes the input data and prepares the input value object for crearing contacts for group.
 - In action, first getting the user id and append to input array by function **getUserID**.
