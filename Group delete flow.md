@@ -10,3 +10,8 @@ Function **controlGroupDeleteFlow** will be called first from index.php to contr
 
 
 #### Step 2:
+
+- Function **deleteGroup** used to call the wsdl call to delete group.
+- In action, first wsdl client connection will be set by function **setWSDLHandle**.
+- Function **delteGroup** in GroupsWS.php will delete the group by wsdl calls as **set_entry**.
+- Header location will be redirected to group list form.
