@@ -1,3 +1,7 @@
+#### Date: 15/03/2017
+
+#### Description: This document explains the code flow of getting contacts directly from DB.
+
 #### Step 1:
 
 Function **getAjaxContactsAddJob** will be called first from index.php to controller which is used to get all contacts directly from database using ajax without using the wsdl call in add invitees in create job while group edit.
