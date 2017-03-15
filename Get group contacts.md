@@ -20,3 +20,4 @@ Function **controlGetGroupContacts** will be called first from index.php to cont
 #### Step 3:
 
 - Function **GetGroupsContactsListDataObjectArr** creates a list object array for the data get from wsdl and passes to view page.
+- Return result N/A.
