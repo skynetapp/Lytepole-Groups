@@ -1,3 +1,7 @@
+#### Date: 15/03/2017
+
+#### Description: This document explains the code flow of getting group contacts directly.
+
 #### Step 1:
 
 Function **controlDirectGetGroupContacts** will be called first from index.php to controller calls the group contacts using ajax.
