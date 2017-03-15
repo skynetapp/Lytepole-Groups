@@ -1,3 +1,7 @@
+#### Date: 15/03/2017
+
+#### Description: This document explains the code flow of detail view of selected group.
+
 #### Step 1:
 
 Function **controlGroupDetailViewFlow** will be called first from index.php to controller which takes the inputs from the user. when user clicks on arrow button in groups list it shows the detail view of the select group based on the record id.
