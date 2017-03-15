@@ -2,9 +2,9 @@
 
 Function **showAddContactsForm** will be called first from index.php to controller which takes the inputs from the user. when user clicks on add contacts in group detail view this function will call and shows the eisting contacts.
 
-- Function **createGroupListInputVO** takes the inputs array and send to data file and prepares the list object to get the group list. It pepares the input to group wsdl.
+- Function **createContactListInputVO** takes the input data and prepares the input value object for crearing contacts for group.
 - In action, first getting the user id and append to input array by function **getUserID**.
-- Function **createGroupListInputVO** in GroupsData.php gets the values from input array and sets the values for list value object to pass for WSDL call. It prepares the query and required input to create group.
+- Function **createContactListInputVO** in GroupsData.php gets the values from input array and sets the values for list value object to pass for WSDL call. It prepares the query and required input to create group.
 - The parameters will be user id, Module name and Action name, query, sub action, offset.
 - Result returns the group list value object array to controller.
 
